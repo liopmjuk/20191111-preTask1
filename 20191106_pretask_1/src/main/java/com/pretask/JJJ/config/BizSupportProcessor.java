@@ -30,8 +30,6 @@ public class BizSupportProcessor implements ItemProcessor<BizSupportEntity, BizS
 		.createDate(date)
 		.build();
 		
-		logger.debug("inserting >>  " + item.toString());
-		
 		return item;
 	}
 }
